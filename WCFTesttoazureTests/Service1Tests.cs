@@ -28,7 +28,7 @@ namespace WCFTesttoazure.Tests
         {
             Service1 addservice = new Service1();
             double result = addservice.Add(4, 5.5);
-            Assert.AreEqual(9.5, result);
+            Assert.AreEqual(8.5, result);
         }
     }
 }
