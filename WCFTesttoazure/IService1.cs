@@ -20,6 +20,10 @@ namespace WCFTesttoazure
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
+
+        [OperationContract]
+        double Add(double a, double b);
+
     }
 
 
